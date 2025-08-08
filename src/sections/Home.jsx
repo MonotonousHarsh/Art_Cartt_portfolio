@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import img1 from '../Images/Img1.jpg';
+import img2 from '../Images/Img2.jpg';  
+import img3 from '../Images/Img3.jpg';  
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -76,17 +79,17 @@ const Home = () => {
     {
       id: 1,
       title: 'Abstract Dreams',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: img1
     },
     {
       id: 2,
       title: 'Color Harmony',
-      image: 'https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: img2,
     },
     {
       id: 3,
       title: 'Modern Expression',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: img3,
     },
   ];
 
@@ -96,7 +99,7 @@ const Home = () => {
       ref={sectionRef}
       className="min-h-screen flex items-center justify-center pt-20 px-4"
     >
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center  relative top-64">
         {/* Main Hero Content */}
         <motion.div
           className="mb-20"
@@ -112,7 +115,7 @@ const Home = () => {
           >
             Welcome to{' '}
             <span className="bg-gradient-to-r from-yellow-400 to-pink-500 bg-clip-text text-transparent">
-              ArtCartt
+              the_artt._Cart
             </span>
           </motion.h1>
           
@@ -157,7 +160,7 @@ const Home = () => {
                 <img
                   src={art.image}
                   alt={art.title}
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-72 object-fill transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">

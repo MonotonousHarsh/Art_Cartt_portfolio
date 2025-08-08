@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Palette, Heart, Star, Lightbulb } from 'lucide-react';
 
+
 const About = () => {
   const features = [
     {
@@ -39,11 +40,11 @@ const About = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 font-playfair">
             About{' '}
             <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-              ArtCartt
+             the_Artt._Cart
             </span>
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            ArtCartt is more than just an art collection - it's a journey through the vibrant world of colors, 
+            the_Artt._Cart is more than just an art collection - it's a journey through the vibrant world of colors, 
             emotions, and creative expression. Our mission is to bring art closer to people and inspire 
             creativity in everyday life.
           </p>
@@ -61,9 +62,9 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-white/90 leading-relaxed">
               <p>
-                Founded with a passion for bringing art to life through digital experiences, 
-                ArtCartt represents the intersection of traditional artistry and modern innovation. 
-                We believe that art has the power to transform spaces, emotions, and perspectives.
+                Founded by <span className="text-cyan-200 "> Anjali Verma &#9829;</span>, a passionate artist with a love for art, 
+                the_Artt._Cart represents the intersection of traditional artistry and modern innovation. 
+                she believe that art has the power to transform spaces, emotions, and perspectives.
               </p>
               <p>
                 Each piece in our collection is carefully curated to showcase the beauty of 
@@ -72,7 +73,7 @@ const About = () => {
                 artistic creativity.
               </p>
               <p>
-                Our commitment goes beyond just displaying art - we aim to educate, inspire, 
+                Our commitment goes beyond just displaying art - she aim to educate, inspire, 
                 and create a community of art lovers who appreciate the finer details of 
                 creative expression.
               </p>
@@ -93,7 +94,7 @@ const About = () => {
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <div className="text-white text-center">
-                  <div className="text-3xl font-bold mb-2">100+</div>
+                  <div className="text-3xl font-bold mb-2">20+</div>
                   <div className="text-sm opacity-90">Artworks</div>
                 </div>
               </motion.div>
@@ -103,7 +104,7 @@ const About = () => {
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <div className="text-white text-center">
-                  <div className="text-3xl font-bold mb-2">50+</div>
+                  <div className="text-3xl font-bold mb-2">1</div>
                   <div className="text-sm opacity-90">Artists</div>
                 </div>
               </motion.div>
@@ -113,7 +114,7 @@ const About = () => {
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <div className="text-white text-center">
-                  <div className="text-3xl font-bold mb-2">10K+</div>
+                  <div className="text-3xl font-bold mb-2">2.2K+</div>
                   <div className="text-sm opacity-90">Visitors</div>
                 </div>
               </motion.div>

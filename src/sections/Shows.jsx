@@ -4,56 +4,37 @@ import { Calendar, MapPin, Users, Clock } from 'lucide-react';
 
 const Shows = () => {
   const upcomingShows = [
-    {
-      id: 1,
-      title: 'Colors of Emotion',
-      date: '2024-05-15',
-      time: '7:00 PM - 10:00 PM',
-      location: 'Gallery Downtown, New York',
-      description: 'An immersive exhibition exploring the emotional depth of color in contemporary art.',
-      attendees: 150,
-      status: 'upcoming',
-    },
-    {
-      id: 2,
-      title: 'Abstract Visions',
-      date: '2024-06-03',
-      time: '6:30 PM - 9:30 PM',
-      location: 'Modern Art Space, Los Angeles',
-      description: 'A showcase of abstract artworks that challenge perception and ignite imagination.',
-      attendees: 200,
-      status: 'upcoming',
-    },
-    {
-      id: 3,
-      title: 'Digital Meets Traditional',
-      date: '2024-06-20',
-      time: '5:00 PM - 8:00 PM',
-      location: 'Tech Art Hub, San Francisco',
-      description: 'Where digital innovation meets traditional artistic techniques.',
-      attendees: 100,
-      status: 'upcoming',
-    },
+   
   ];
 
   const pastShows = [
-    {
-      id: 4,
-      title: 'Spring Awakening',
-      date: '2024-03-10',
-      location: 'Art Center, Chicago',
-      description: 'A celebration of renewal and growth through vibrant spring-inspired artworks.',
-      attendees: 180,
-      status: 'completed',
+     {
+      id: 1,
+      title: 'Utsav Festival',
+      date: '10 October 2024',
+      time: '01:00 PM - 10:00 PM',
+      location: 'UIET, Chandigarh',
+      description: 'An immersive exhibition exploring the emotional depth of color in contemporary art.',
+      
+      
     },
     {
-      id: 5,
-      title: 'Urban Rhythms',
-      date: '2024-02-14',
-      location: 'City Gallery, Miami',
-      description: 'Capturing the pulse and energy of city life through dynamic color compositions.',
-      attendees: 220,
-      status: 'completed',
+      id: 2,
+      title: 'PEC Fest',
+      date: '9 November 2024',
+      time: '6:30 PM - 9:30 PM',
+      location: 'PEC, Chandigarh',
+      description: 'A showcase of abstract artworks that challenge perception and ignite imagination.',
+      
+    },
+    {
+      id: 3,
+      title: 'Goonj Fest',
+      date: '19 february 2025',
+      time: '5:00 PM - 8:00 PM',
+      location: 'UIET, Chandigarh',
+      description: 'Where culture meets traditional artistic techniques.',
+      
     },
   ];
 

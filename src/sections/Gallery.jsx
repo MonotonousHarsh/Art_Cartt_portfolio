@@ -2,6 +2,24 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import img1 from '../Images/Img1.jpg';
+import img4 from '../Images/img4.jpg'
+import img5 from '../Images/img5.jpg'
+import img6 from '../Images/img6.jpg'
+import img7 from '../Images/img7.jpg'
+import img8 from '../Images/img8.jpg'
+import img9 from '../Images/img9.jpg'
+import img10 from '../Images/img10.jpg'
+import img11 from '../Images/img11.jpg'
+import img12 from '../Images/img12.jpg'
+import img13 from '../Images/img13.jpg'
+import img14 from '../Images/img14.jpg'
+import img15 from '../Images/img15.jpg'
+import img16 from '../Images/img16.jpg'
+import img17 from '../Images/img17.jpg'
+import img18 from '../Images/img18.jpg'
+import img19 from '../Images/img19.jpg'
+import img20 from '../Images/img20.jpg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,52 +29,155 @@ const Gallery = () => {
   const artworks = [
     {
       id: 1,
-      title: 'Sunset Symphony',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Twilight Pier Reverie',
+      image: img4,
       date: '2024-01-15',
-      description: 'A harmonious blend of warm colors capturing the essence of a perfect sunset',
-      colors: 'Orange, Red, Yellow, Purple',
+      description: ' A tranquil pink‑purple sunset over calm waters with a silhouetted pier and lamppost.',
+      colors: 'Blush Pink, Lavender Purple, Coral Orange, Horizon Blue, Silhouette Black, Soft Yellow',
     },
     {
       id: 2,
-      title: 'Ocean Dreams',
-      image: 'https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Golden Divide',
+      image: img5,
       date: '2024-02-03',
-      description: 'Deep blues and teals representing the mysterious depths of the ocean',
-      colors: 'Blue, Teal, White, Navy',
+      description: ' A split meadow and tranquil lake bathed in a warm, golden‑orange sunset, framed by stark, leafless trees against distant purple hills.',
+      colors: ' Golden Yellow, Tangerine Orange, Emerald Green, Teal Blue, Lavender Purple, Deep Black',
     },
     {
       id: 3,
-      title: 'Forest Whispers',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Sylvan Lightfall',
+      image: img6,
       date: '2024-02-20',
-      description: 'Earthy greens and browns capturing the serenity of ancient forests',
-      colors: 'Green, Brown, Gold, Emerald',
+      description: 'Sunbeams pierce a vaulted emerald forest, illuminating moss‑y ground and tall, shadowy trunks.',
+      colors: 'Forest Green, Teal Blue, Moss Green, Dark Brown, Soft Gold.',
     },
     {
       id: 4,
-      title: 'Urban Rhythm',
-      image: 'https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Cherry Blossom Reflection',
+      image: img7,
       date: '2024-03-10',
-      description: 'Bold geometric patterns reflecting the energy of city life',
-      colors: 'Gray, Black, Yellow, Red',
+      description: ' Vibrant pink blossoms arch over a serene, snow‑capped mountain mirrored in a tranquil blue lake.',
+      colors: 'Blossom Pink, Cerulean Blue, Indigo Purple, Midnight Navy, Soft White.',
     },
     {
       id: 5,
-      title: 'Spring Awakening',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Urban Twilight Whispers',
+      image: img8,
       date: '2024-03-25',
-      description: 'Soft pastels celebrating the rebirth and renewal of spring',
-      colors: 'Pink, Lavender, Mint, Cream',
+      description: 'A crescent moon and birds drift above silhouetted rooftops and power lines against a vibrant pink‑orange dusk sky.',
+      colors: ' Rose Pink, Tangerine Orange, Soft Yellow, Charcoal Black, Slate Gray, Olive Green.',
     },
     {
       id: 6,
-      title: 'Cosmic Dance',
-      image: 'https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Emberwood Retreat',
+      image: img9,
       date: '2024-04-08',
-      description: 'Vibrant purples and magentas depicting the mysteries of space',
+      description: 'A lone white cabin beside a glassy lake, framed by blazing autumn foliage and evergreens, its reflection mirrored beneath a crescent‑lit sky.',
+      colors: 'Fire Red, Pumpkin Orange, Forest Green, Sapphire Blue, Midnight Teal, Soft White.',
+    },
+
+     {
+      id: 7,
+      title: 'Dawn’s Serene Meadow',
+      image: img10,
+      date: '2024-04-08',
+      description: ' A lush green field bordered by towering pines, with a mist‑cloaked mountain rising beneath a soft pink and blue dawn sky.',
+      colors: 'Meadow Green,Forest Green,Teal Blue,Blush Pink,Vender Gray,Deep Charcoal',
+
+    },
+     {
+      id: 8,
+      title: 'Twilight’s Embrace',
+      image: img11,
+      date: '2024-04-08',
+      description:  'A fiery sunset melts into a star‑spattered sky above a serene lake, framed by grassy banks and distant mountain silhouettes.',
+      colors: 'Sunset Orange, Coral Pink, Magenta, Indigo Purple, Emerald Green, Deep Navy',
+    },
+     {
+      id: 9,
+      title: 'Neon Dusk Grove',
+      image: img12,
+      date: '2024-04-08',
+      description: ' Slender pines stand in silhouette over a shadowed forest floor, backlit by a glowing gradient sky of teal, magenta, and golden hues.',
+      colors: ' Teal Blue, Magenta Pink, Golden Yellow, Deep Navy, Black.',
+    },
+     {
+      id: 10,
+      title: 'Urban Twilight Symphony',
+      image: img13,
+      date: '2024-04-08',
+      description: 'Silhouetted power lines, rooftops, and foliage against a vibrant yellow‑to‑purple sunset gradient.',
+      colors: 'Golden Yellow,Warm Orange,Magenta,Deep Purple,Black'
+     },
+     {
+      id: 11,
+      title: 'Forest Blossom Cottage',
+      image: img14,
+      date: '2024-04-08',
+      description: 'A cozy wooden cabin surrounded by wildflowers at the edge of a lush evergreen forest.',
+      colors: 'Forest Green,Emerald,Chestnut Brown,Red,White',
+    },
+     {
+      id: 12,
+      title: 'Twilight Transmission',
+      image: img15,
+      date: '2024-04-08',
+      description: 'Silhouetted utility poles and tree branches against a vibrant pink‑to‑blue sunset sky.',
+      colors: 'Sky Blue,Soft Pink,Lavender,Golden Orange,Black',
+    },
+     {
+      id: 13,
+      title: 'Seaside Garden Cottage',
+      image: img16,
+      date: '2024-04-08',
+      description: 'A cozy beach hut beside a turquoise sea, framed by a leaning palm tree and a vibrant flower-lined path.Vibrant purples and magentas depicting the mysteries of space',
+      colors: '  Turquoise,Emerald Green,Sandy Beige,Coral Pink,Sky Blue'
+    },
+     {
+      id: 14,
+      title: 'Enchanted Moonlit Grove',
+      image: img17,
+      date: '2024-04-08',
+      description: 'A serene forest clearing with towering trees, glowing fireflies, and a softly illuminated pond under a dusky',
       colors: 'Purple, Magenta, Blue, Silver',
     },
+     {
+      id: 15,
+      title: 'Autumn Alpine Reflection',
+      image: img18,
+      date: '2024-04-08',
+      description: 'A vibrant sunset bathes blue‑tinted mountains and a glassy lake, with a golden‑leafed tree standing between a lush meadow and calm waters.',
+      colors: 'Teal Blue,Amber Orange,Golden Yellow,Forest Green,Soft Lavender',
+
+
+
+    },
+     {
+      id: 16,
+      title: 'Misty Woodland Passage',
+      image: img19,
+      date: '2024-04-08',
+      description: 'A lone red car makes its way through a flooded, mist‑shrouded forest path, framed by towering tree trunks and dense undergrowth.',
+      colors: 'Forest Green, Olive, Dark Brown, Rust Red, Misty White'
+
+    },
+     {
+      id: 17,
+      title: 'Vintage Antiquités Facade',
+      image: img20,
+      date: '2024-04-08',
+      description: 'Detailed pencil sketch of an antiques shop front, complete with a café door, potted plants, striped awning, and window display.',
+      colors: ' Black, White, Gray',
+    },
+     {
+      id: 18,
+      title: 'Whispers of the Willow',
+      image: img1,
+      date: '2024-04-08',
+      description: 'A lone wooden rowboat drifts on a glassy, lotus‑dotted pond, bathed in dappled sunlight streaming through lush overhanging willow branches, as delicate butterflies flutter at the water’s edge.',
+      colors: 'Emerald Green ,Teal Blue,Deep Azure,Golden Yellow ,Soft Pink,Rich Brown',
+    },
+    
   ];
 
   useEffect(() => {
